@@ -1,5 +1,3 @@
-#![allow(non_snake_case)]
-
 extern crate reportbuilder;
 use reportbuilder::threadpool::ThreadPool;
 use reportbuilder::server::Connection;
