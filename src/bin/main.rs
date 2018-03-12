@@ -6,11 +6,6 @@ use reportbuilder::server::Connection;
 
 use std::net::TcpListener;
 
-/*
-    Refactor ThreadPool into sub module
-    Add database module
-*/
-
 fn main(){
     let listener = TcpListener::bind("127.0.0.1:8080").unwrap();
     let pool = ThreadPool::new(4);
