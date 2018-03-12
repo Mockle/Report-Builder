@@ -1,7 +1,7 @@
 #![allow(non_snake_case)]
 
 extern crate reportbuilder;
-use reportbuilder::ThreadPool;
+use reportbuilder::threadpool::ThreadPool;
 use reportbuilder::server::Connection;
 
 use std::net::TcpListener;
